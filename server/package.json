@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "\"creating movie-watchList webApp\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Heena",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "http": "^0.0.1-security",
+    "http-errors": "^2.0.1",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
