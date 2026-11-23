@@ -20,7 +20,7 @@ export default function SearchPage() {
 
         setSavedTmdbIds(new Set(items.map((movie) => Number(movie.tmdbId))));
       } catch (err) {
-        console.error("Failed to load watchlist IDs:", err);
+        throw err;
       }
     };
 
